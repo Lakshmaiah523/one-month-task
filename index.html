@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reward System and Login Tracking</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Reward System</h1>
+        <button id="changeLanguage">Change Language</button>
+        <div id="languageSelector">
+            <button id="changeLanguage" data-lang="en">English</button>
+            <button id="changeLanguage" data-lang="fr">Français</button>
+            <button id="changeLanguage" data-lang="hi">हिन्दी</button>
+        </div>
+    </header>
+    
+    <section id="rewardSystem">
+        <h2>Reward System</h2>
+        <p>Points: <span id="userPoints">0</span></p>
+        <button id="earnPoints">Earn 10 Points</button>
+        <button id="earnBadge">Earn Badge</button>
+    </section>
+
+    <section id="loginTracking">
+        <h2>Login Tracking</h2>
+        <button id="loginButton">Log In</button>
+        <div id="loginHistory">
+            <h3>Login History</h3>
+            <ul id="loginHistoryList"></ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
